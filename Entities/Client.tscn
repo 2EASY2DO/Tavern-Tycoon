@@ -30,6 +30,5 @@ margin_top = -64.0
 margin_right = 56.0
 margin_bottom = -50.0
 text = "Some Order Here"
-
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]
