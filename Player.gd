@@ -1,6 +1,6 @@
 extends KinematicBody2D
-
-export var speed := 700
+ 
+export var speed := 550
 var drink = "none"
 var can_interact = false
 var new_drink

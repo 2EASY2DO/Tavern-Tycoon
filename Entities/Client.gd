@@ -2,8 +2,10 @@ extends StaticBody2D
 
 var DRINKS = ["Water", "Beer", "Coconut Water", "Margarita", "Bloody Mary"]
 var drink = "water"
+#Change the customer graphics randomly every time they spawn
 func _ready():
 	_decide_drink()
+	
 # Just here so i can cahnge the drink they want for debug purposes
 func _process(delta):
 	if Input.is_action_just_pressed("RELOAD"):
