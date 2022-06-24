@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Barrel.png-4c54dd5509d0aa7a689f219d0711da85.stex"
+path="res://.import/Chair.png-3e6ad313b0f0a1e71d6b1b9ab2492e73.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Tavern/Barrel.png"
-dest_files=[ "res://.import/Barrel.png-4c54dd5509d0aa7a689f219d0711da85.stex" ]
+source_file="res://Sprites/Tavern/Chair.png"
+dest_files=[ "res://.import/Chair.png-3e6ad313b0f0a1e71d6b1b9ab2492e73.stex" ]
 
 [params]
 

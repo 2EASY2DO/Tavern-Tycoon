@@ -1,4 +1,4 @@
-extends StaticBody2D
+extends KinematicBody2D
 var clienta = preload("res://Entities/Clients/Client_A.tscn")
 var clientb = preload("res://Entities/Clients/Client_B.tscn")
 
