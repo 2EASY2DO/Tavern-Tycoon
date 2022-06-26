@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Entities/Client.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/Entities/Townsfolk - Male/Townsfolk_M_Idle_1.png" type="Texture" id=2]
@@ -8,9 +8,6 @@ extents = Vector2( 25.0102, 26.6352 )
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 16.5371, 19.054 )
-
-[sub_resource type="CircleShape2D" id=3]
-radius = 448.0
 
 [node name="Client_A" type="KinematicBody2D"]
 script = ExtResource( 1 )
@@ -40,11 +37,5 @@ text = "Some Order Here"
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="seat_area" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="seat_area"]
-shape = SubResource( 3 )
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]
-[connection signal="body_entered" from="seat_area" to="." method="_on_seat_area_body_entered"]
